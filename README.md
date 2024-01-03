@@ -1,4 +1,4 @@
-# Tracker v2
+# WebSeries-Tracker:
 
 The aim of the project is to facilitate the tracking of TV series, movies, and many other things in the future. I used to use Notion to keep track of what I've watched, but doing it manually was quite cumbersome. Although there were similar applications, they had their issues. They didn't suffice to meet my needs. So, I wanted to develop an application like this.
 
@@ -65,18 +65,6 @@ Using `next/dynamic` for import, server-side rendering (SSR), react-query, useMe
 
 ## Running on Your Computer
 
-Clone the project:
-
-```bash
-git clone git@github.com:dukeofsoftware/series-tracker-v2.git
-```
-
-Navigate to the project directory:
-
-```bash
-cd series-tracker-v2
-```
-
 Install the necessary packages and add required values to the `.env` file:
 
 ```bash
@@ -135,13 +123,6 @@ To run this project, you must add the following environment variables to your `.
 
 `SITE_URL=`
 
-## Related Projects
-
-Here are some related projects:
-
-- [Tracker v1](https://github.com/dukeofsoftware/series-tracker)
-- [TMDB](https://www.themoviedb.org/)
-
 ## Feedback
 
-If you have any feedback, please contact us at kozanfurkanemre@gmail.com.
+If you have any feedback, please contact us at choudharyashish621@gmail.com.
