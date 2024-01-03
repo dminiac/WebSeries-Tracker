@@ -1,0 +1,309 @@
+{
+  "seo": {
+    "mainLayout": {
+      "title": "Tracking",
+      "description": "Track movies and series. Share easily with your friends. Stay instantly informed about newly released TV shows and movies.",
+      "keywords": "series, film, tracking, movie tracking, series tracking, series rating, popular series"
+    }
+  },
+  "starDescription": " {title} successfully rated",
+  "global": {
+    "error": "Error",
+    "rateLimitError": "You have reached the rate limit. Please try again later.",
+    "adult": "Adult Content",
+    "loading": "Loading...",
+    "toast": {
+      "reauthenticateError": "You need to log in recently to perform this action",
+      "success": "Success",
+      "error": "Error {code}",
+      "errorDescription": "An error occurred. Please try again later.",
+      "firebase": {
+        "emailVerify": "You need to verify your email address to perform this action.",
+        "username": "You need a username for your profile to be visible to everyone.",
+        "usernameProvide": "You need to provide a username to use the app's features.",
+        "usernameProvideTitle": "Warning! Username Required"
+      }
+    },
+    "messages": {
+      "notFound": "Data not found"
+    }
+  },
+  "favorites": {
+    "title": "Favorites",
+    "addToFavorites": "{title} added to favorites.",
+    "removeFromFavorites": "{title} removed from favorites."
+  },
+  "search": {
+    "title": "Search",
+    "searchFor": "Search for movies and series",
+    "adultContent": "Adult Content",
+    "all": "All",
+    "movie": "Movie",
+    "series": "Series"
+  },
+  "status": {
+    "statusTitle": "Status",
+    "deleteStatus": "Delete Status",
+    "notStarted": "Not Started",
+    "watching": "Watching",
+    "completed": "Completed",
+    "onHold": "On Hold",
+    "dropped": "Dropped",
+    "planToWatch": "Plan to Watch"
+  },
+  "navbar": {
+    "themes": {
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode"
+    },
+    "accountDropdown": {
+      "dropdownTitle": "My Account",
+      "logout": "Logout",
+      "favorites": "Favorites",
+      "chat": "Chat",
+      "profile": "Profile",
+      "settings": "Settings"
+    }
+  },
+  "follow": {
+    "followers": "Followers",
+    "following": "Following"
+  },
+  "searchUser": "Search User",
+  "pages": {
+    "contact":{
+        "title":"Contact",
+        "description":"Contact us",
+        "form":{
+            "name":"Name",
+            "email":"E-mail",
+            "message":"Message",
+            "button":"Send"
+        },
+        "toastDescription":"Your message has been sent successfully",
+        "toastErrorDescription":"An error occurred while sending your message"
+    },
+    "chat": {
+      "empty": "Select a user from the sidebar to start writing a message",
+      "createRoom": "Create a chat room with a user",
+      "searchUser": "Search for a user"
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "description": "Find answers to frequently asked questions here.",
+      "questions": [
+        {
+          "question": "What is Tracker v2?",
+          "answer": "Tracker v2 is an application designed to make it easier to track TV series, movies, and possibly other things in the future. I used to use Notion to keep track of what I've watched, but doing it manually was quite cumbersome. Although there were similar applications, they had their issues. They didn't suffice to meet my needs. So, I wanted to develop an application like this."
+        },
+        {
+          "question": "Why did I create Tracker v2?",
+          "answer": "I developed Tracker v2 because I found existing solutions lacking in meeting my needs. I wanted a more efficient way to track my watched content than manually using tools like Notion. Tracker v2 aims to provide a comprehensive and user-friendly solution for this purpose."
+        },
+        {
+          "question": "What technologies were used in Tracker v2?",
+          "answer": "Tracker v2 employs a variety of technologies. On the client side, it utilizes React for the user interface, Firebase for real-time data handling, Zustand for state management, TailwindCSS for styling, and other libraries such as Valibot and React Hook Form for form validation. On the server side, it uses Next.js, Firebase Admin, and next-firebase-auth-edge for secure authentication."
+        },
+        {
+          "question": "Is Tracker v2 mobile-friendly?",
+          "answer": "Yes, Tracker v2 is designed to provide a seamless experience on both desktop and mobile devices."
+        },
+        {
+          "question": "How can I contribute to Tracker v2?",
+          "answer": "Contributions are welcome! You can fork the repository, make improvements or fixes, and create pull requests. Please follow the project's guidelines for contributing."
+        },
+        {
+          "question": "Does Tracker v2 support multiple languages?",
+          "answer": "Yes, Tracker v2 offers multi-language support with languages like Turkish (tr), English (en), and German (de) using the next-intl library."
+        },
+        {
+          "question": "Where can I find more information about related projects?",
+          "answer": "You can find information about related projects like Tracker v1 and the TMDB API in the project's GitHub repository."
+        },
+        {
+          "question": "How can I provide feedback about Tracker v2?",
+          "answer": "You can send your feedback to kozanfurkanemre@gmail.com. We value your input and will use it to improve the application."
+        }
+      ]
+    },
+    "main": {
+      "trendingTitle": "Trends"
+    },
+    "profile": {
+      "tabs": {
+        "series": "Series",
+        "movies": "Movies"
+      },
+      "tables": {
+        "movie": {
+          "original_title": "Original Title",
+          "rating": "Rating",
+          "exportData": "Export Data",
+          "title": "Title",
+          "overview": "Overview",
+          "favorite": "Favorite",
+          "status": "Status",
+          "score": "Score",
+          "date": "Date",
+          "columns": "Columns",
+          "actions": "Actions",
+          "viewDetails": "View Details",
+          "openMenu": "Open Menu",
+          "noData": "No movies added yet",
+          "previousPage": "Previous Page",
+          "nextPage": "Next Page",
+          "filterPlaceholder": "Filter by Title..."
+        },
+        "series": {
+          "rating": "Rating",
+          "exportData": "Export Data",
+          "title": "Title",
+          "overview": "Overview",
+          "favorite": "Favorite",
+          "status": "Status",
+          "score": "Score",
+          "date": "Date",
+          "columns": "Columns",
+          "actions": "Actions",
+          "viewDetails": "View Details",
+          "openMenu": "Open Menu",
+          "noData": "No series added yet",
+          "previousPage": "Previous Page",
+          "nextPage": "Next Page",
+          "filterPlaceholder": "Filter by Title..."
+        }
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "description": "You need to provide a username and verify your email address to use the app's features.",
+      "accountTab": {
+        "updateProfilePhoto": {
+          "title": "Profile Photo",
+          "description": "Change your profile photo.",
+          "buttonLabel": "Change Photo",
+          "toastDescription": "Your profile photo has been changed.",
+          "fileSizeExceeds": "You can upload a file up to {mb} in size",
+          "invalidFormat": "Invalid file format. Only .png, .jpeg, .jpg and .webp formats are supported"
+        },
+        "updateDisplayName": {
+          "toastDescription": "Your profile name has been changed.",
+          "currentName": "Your current name is {name}.",
+          "title": "Profile Name",
+          "description": "Change your profile name.",
+          "inputLabel": "New Name",
+          "inputDescription": "Enter your new profile name.",
+          "buttonLabel": "Change Name"
+        },
+        "updateUsername": {
+          "usernameTaken": "This username is already taken.",
+          "toastDescription": "Your username has been changed.",
+          "currentUsername": "Your current username is {username}.",
+          "title": "Username",
+          "description": "Change your username. Your current username is {username}.",
+          "inputLabel": "New Username",
+          "inputDescription": "Enter your new username.",
+          "buttonLabel": "Change Username"
+        }
+      },
+      "emailTab": {
+        "changeEmail": {
+          "title": "Change Email",
+          "toastDescription": "Your email address has been changed.",
+          "description": "Change your email address.",
+          "inputLabel": "New Email",
+          "confirmInputLabel": "Confirm New Email",
+          "confirmInputDescription": "Enter your new email again.",
+          "inputDescription": "Enter your new email address.",
+          "buttonLabel": "Change Email"
+        },
+        "verifyEmail": {
+          "toastDescription": "A verification email has been sent to your address.",
+          "toastTitle": "Email Verification",
+          "verifiedMail": "Your email address has been verified.",
+          "verifyButtonLabel": "Verify Email",
+          "title": "Email Verification",
+          "description": "You can verify your email address here.",
+          "verified": "Verified"
+        }
+      },
+      "reauthenticate": {
+        "cardTitle": "Reauthenticate",
+        "passwordLabel": "Password",
+        "toastDescription": "Authentication successful",
+        "cardDescription": "You need to have recently logged in to make changes to important settings.",
+        "buttonLabel": "Reauthenticate"
+      },
+      "passwordTab": {
+        "title": "Change Password",
+        "description": "Change your account password.",
+        "inputLabel": "New Password",
+        "inputDescription": "Enter your new password.",
+        "confirmInputLabel": "Confirm New Password",
+        "confirmInputDescription": "Enter your new password again.",
+        "buttonLabel": "Change Password",
+        "toastDescription": "Your password has been changed."
+      }
+    },
+    "auth": {
+      "login": {
+        "title": "Login",
+        "loginWithGoogle": "Login with Google",
+        "emailInputDescription": "We will not share your email address with anyone.",
+        "passwordLabel": "Password",
+        "passwordInputDescription": "We will not share your password with anyone.",
+        "dontHaveAccount": "Don't have an account?",
+        "register": "Register",
+        "buttonLabel": "Login",
+        "toastDescription": "You have successfully logged in."
+      },
+      "register": {
+        "title": "Register",
+        "registerWithGoogle": "Register with Google",
+        "toastSuccessDescription": "You have successfully registered.",
+        "verifyToastTitle": "Check your email",
+        "verifyToastDescription": "We have sent an email to verify your email address.",
+        "emailInputDescription": "We will not share your email address with anyone.",
+        "passwordLabel": "Password",
+        "passwordInputDescription": "We will not share your password with anyone.",
+        "confirmPasswordLabel": "Confirm Password",
+        "confirmPasswordInputDescription": "Enter your password again.",
+        "alreadyHaveAccount": "Already have an account?",
+        "login": "Login",
+        "buttonLabel": "Register"
+      }
+    },
+    "tmdb": {
+      "tags": "Tags:",
+      "noOverview": "No overview found.",
+      "movies": {
+        "movie": {
+          "similarMovies": "Similar Movies"
+        }
+      },
+      "series": {
+        "tv": {
+          "similarSeries": "Similar Series",
+          "season": {
+            "season": "Season ",
+            "episodes": "Episodes",
+            "episode": "Episode {episodeNumber}"
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "links": "Links",
+    "social": "Social",
+    "sss": "Faqs",
+    "contact": "Contact",
+    "about": "About"
+  },
+  "not-found": {
+    "title": "404",
+    "description": "Page Not Found...",
+    "exist": "The page you are looking for does not exist.",
+    "backToMain": "Back to Home Page"
+  }
+}
